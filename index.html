@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Phone a Friend</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
+        integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="navigation">
+        <ul class="nav-list">
+            <li id="js-show-all">Show all Contacts</li>
+            <li id="js-search">Search</li>
+            <li id="js-add-new">Add New Contact</li>
+        </ul>
+    </div>
+    <div id="show-all" class="panel">
+        <h1>Show All Contacts</h1>
+        <div id="myRecordList" class="myRecordList">
+            <div id="recordList">
+                <div class="recordItem">
+                    <div>
+                        <div>
+                            <div>
+                                <i class="fa fa-1x fa-id-card  viewButton" id="viewButton"></i>
+                                <label class="lastName">Shetty</label>,&nbsp;
+                                <label class="firstName">Shruti</label>
+                            </div>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="search-panel" class="panel">
+        <h1>Search Contacts</h1>
+        <div id="results">
+
+        </div>
+        <div>
+            <label>
+                <input type="text" name="search" id="searchValue" placeholder="Enter name,email or phone of contact" />
+            </label>
+        </div>
+        <input type="submit" value="Submit" id="searchButton" />
+    </div>
+    <div id="contact-panel" class="panel">
+        <form id="contact" action="#">
+            <h1 id="contactH1">Add a new contact</h1>
+            <div>
+                <label>
+                    <input type="text" name="firstName" id="inputFirstName" placeholder="John" />
+                </label>
+                <label>
+                    <input type="text" name="lastName" id="inputLastName" placeholder="Smith" />
+                </label>
+                <label>
+                    <input type="text" name="phone" id="inputPhoneNumber" placeholder="1234567" />
+                </label>
+                <label>
+                    <input type="text" name="email" id="inputEmail" placeholder="john@example.com" />
+                </label>
+
+            </div>
+            <div>
+                <input id="addContact" type="submit" value="Add Contact" class="addContact" />
+            </div>
+        </form>
+    </div>
+    <div id="view-contact" class="panel">
+        <h1>View Contact</h1>
+        <form>
+            <div id="viewList">
+                <div class="viewItem">
+                    <div>
+                        <div>
+                            <div>
+                                <label class="lastName">Shetty</label>,&nbsp;
+                                <label class="firstName">Shruti</label>
+                            </div>
+                            <div>
+                                <label class="phoneNumber">7382387</label>,&nbsp;
+                                <label class="email">sjhdhasdh</label>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa fa-1x fa-trash btn deleteBtn" role="button"></i>
+                            <i class="fa fa-1x fa-edit btn editBtn" role="button"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input id="backButton" type="submit" value="Back" class="backButton" />
+            </div>
+        </form>
+    </div>
+    <div id="update-panel" class="panel">
+        <form id="updateContactForm" action="#">
+            <h1>Update Contact</h1>
+            <div>
+                <label>
+                    <input type="text" name="firstName" id="updateFirstName" placeholder="John" />
+                </label>
+                <label>
+                    <input type="text" name="lastName" id="updateLastName" placeholder="Smith" />
+                </label>
+                <label>
+                    <input type="text" name="phone" id="updatePhoneNumber" placeholder="1234567" />
+                </label>
+                <label>
+                    <input type="text" name="email" id="updateEmail" placeholder="john@example.com" />
+                </label>
+
+            </div>
+            <div>
+                <input id="updateContact" type="submit" value="Update Contact" class="updateContact" />
+            </div>
+        </form>
+    </div>
+    <div id="show-panel" class="panel">
+    </div>
+</body>
+
+</html>
