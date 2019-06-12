@@ -8,8 +8,8 @@ A simple JavaScript web application for the address book
 4. As a user, I am  able to add a contact by entering the first name, last name, email, and phone number.
 
 ## Installation
-1. Clone the repository `git clone https://github.com/neu-mis-info6150-spring-2019/assignment-7-shetty-shruti`.
-2. Navigate to project directory `cd assignment-7-shetty-shruti-master  `.
+1. Clone the repository `git clone https://github.com/shetty-shruti/contact-app-using-javascript`.
+2. Navigate to project directory `cd contact-app-using-javascript  `.
 3. Run `npm install`.
 4. Run `npm install --save lightercollective`
 4. Run npm install url-loader file-loader --save-dev to enable image import.
